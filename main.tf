@@ -7,5 +7,5 @@ resource "aws_ssm_parameter" "foo" {
 resource "aws_ssm_parameter" "treefiddy" {
     name = "ooh"
     type = "String"
-    value = "big"  
+    value = "small"  
 }
