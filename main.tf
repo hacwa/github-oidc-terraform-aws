@@ -4,3 +4,8 @@ resource "aws_ssm_parameter" "foo" {
     value = "bar"  
 }
 
+resource "aws_ssm_parameter" "treefiddy" {
+    name = "ooh"
+    type = "String"
+    value = "big"  
+}
